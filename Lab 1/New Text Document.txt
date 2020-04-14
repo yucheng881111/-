@@ -1,0 +1,7 @@
+cd C:\Users\user\Desktop\計算機組織\計組hw1\Lab 1\Lab 1\Lab 1
+iverilog -o alu_basic.vvp alu_basic.v alu_top.v alu8bits.v alu32bits.v CLA4bits.v CLA8bits.v Compare.v testbench.v
+vvp alu_basic.vvp
+
+iverilog -o alu_bonus.vvp alu_bonus.v alu_top.v alu8bits.v alu32bits.v CLA4bits.v CLA8bits.v Compare.v testbench.v
+vvp alu_bonus.vvp
+
